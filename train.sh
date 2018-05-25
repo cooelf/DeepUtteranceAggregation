@@ -1,0 +1,13 @@
+python main.py \
+--dataset ./ECD_sample/all \
+--save_result ./ECD_sample/log \
+--n_epoch 5 \
+--batch_size 10 \
+--max_length 50 \
+--hidden_size 200 \
+--word_embedding_size 200 \
+--session_hidden_size 50 \
+--session_input_size 50 \
+--model_name DUA.bin \
+--val_frequency 10 \
+--max_turn 10 \

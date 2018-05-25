@@ -1,0 +1,5 @@
+gensim
+numpy
+scipy
+sklearn
+theano==0.9.0
