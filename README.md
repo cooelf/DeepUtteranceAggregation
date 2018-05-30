@@ -12,7 +12,7 @@ We release E-commerce Dialogue Corpus, comprising a training data set, a develop
 | Average turn per session|5.51|5.48|5.64
 | Average Word per utterance|7.02|6.99|7.11
 
-Due to the upload size limit (10M), we just upload data samples for understanding our paper. We will make them publicly available upon publication.
+The full corpus can be downloaded from https://drive.google.com/file/d/154J-neBo20ABtSmJDvm7DK0eTuieAuvw/view?usp=sharing.
 
 ## Data template
 label \t conversation utterances (splited by \t) \t response
@@ -40,3 +40,13 @@ We strongly suggest you to use <code>conda</code> to control the virtual environ
 * Train the model
 
     <code>bash train.sh</code>
+    
+    
+If you use this code please cite our paper:
+
+@inproceedings{zhang2018dua,
+    title = {Modeling Multi-turn Conversation with Deep Utterance Aggregation},
+    author = {Zhang, Zhuosheng and Li, Jiangtong and Zhu, Pengfei and Zhao, Hai},
+    booktitle = {Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
+    year = {2018},
+}
