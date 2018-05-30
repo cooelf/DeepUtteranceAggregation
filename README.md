@@ -43,10 +43,11 @@ We strongly suggest you to use <code>conda</code> to control the virtual environ
     
     
 If you use this code please cite our paper:
-
+```
 @inproceedings{zhang2018dua,
     title = {Modeling Multi-turn Conversation with Deep Utterance Aggregation},
     author = {Zhang, Zhuosheng and Li, Jiangtong and Zhu, Pengfei and Zhao, Hai},
     booktitle = {Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
     year = {2018},
 }
+```
