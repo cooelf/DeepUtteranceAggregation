@@ -182,15 +182,15 @@ def main(datasets, U, n_epochs=20, batch_size=20, max_l=100, hidden_size=100, \
     rng = np.random.RandomState(r_seed)
     lsize, rsize = max_l, max_l
     sessionmask = T.matrix()
-    lx = []
-    lxmask = []
+    lx = []  #tokens from previous turns
+    lxmask = [] #masks from previous turns
     for i in range(max_turn):
         lx.append(T.matrix())
         lxmask.append(T.matrix())
 
     index = T.lscalar()
-    rx = T.matrix('rx')
-    rxmask = T.matrix()
+    rx = T.matrix('rx') #tokens from response
+    rxmask = T.matrix() #masks from response
     y = T.ivector('y')
     Words = theano.shared(value=U, name="Words")
     llayer0_input = []
