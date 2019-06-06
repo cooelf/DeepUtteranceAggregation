@@ -40,14 +40,27 @@ We strongly suggest you to use <code>conda</code> to control the virtual environ
 * Train the model
 
     <code>bash train.sh</code>
-    
-    ​
+
+   
+### Tips
+
+If you encounter some cuda issues, please check your environment. 
+For reference, 
+
+    Theano 0.9.0
+    Cuda 8.0
+    Cudnn 5.1
+
+
+### Reference
+ 
 If you use this code please cite our paper:
 ```
 @inproceedings{zhang2018dua,
     title = {Modeling Multi-turn Conversation with Deep Utterance Aggregation},
     author = {Zhang, Zhuosheng and Li, Jiangtong and Zhu, Pengfei and Zhao, Hai},
     booktitle = {Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
-    year = {2018},
+    pages={3740--3752},
+    year = {2018}
 }
 ```
